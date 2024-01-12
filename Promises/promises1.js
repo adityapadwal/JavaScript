@@ -6,8 +6,8 @@
 // console.log(name);  
 
 // <===================Promise================>
-const event = new Promise((resolve, reject) =>{
-    var name = "Aditya";
+const someEvent = new Promise((resolve, reject) =>{
+    var name = "Adityaa";
     if (name === "Aditya")
     {
         resolve(name);
@@ -18,13 +18,13 @@ const event = new Promise((resolve, reject) =>{
     }
 });
 
-event.then((name) =>{
+someEvent.then((name) =>{
     console.log("You have entered the correct name ", name);
 });
-event.catch((err) =>{
+someEvent.catch((err) =>{
     console.log(err);
 });
-event.finally(() => {
+someEvent.finally(() => {
     console.log("Promise finished using finally! ");
 });
 
@@ -33,13 +33,3 @@ event.finally(() => {
 // .then will be called if the function resolves (i.e, success) 
 // .catch will be called if the function rejects (i.e, failure) 
 // .finally will be called irrespective of the result (true/ false doesn't matter)
-
-// <================== Async-Await ==================>
-// const axios = require("axios");
-
-// const fetchData = async() =>{
-//     const data = await axios.get("https://cat-fact.herokuapp.com/facts");
-//     console.log(data);
-// };
-
-// fetchdata();  
