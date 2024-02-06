@@ -25,19 +25,19 @@ function sample() {
     console.log(y);
     y = 15; // reassigning
     console.log(y);
-    // let y = 20; (reference error: cannot redeclare)
+    // let y = 20; (syntax error: cannot redeclare)
     console.log(y);
 }
-sample();
+// sample();
 // hence, proved that for identifiers using let, we can reassign but cannot redeclare
 
 // const - neither reassignment not redeclaration allowed
 function example() {
     const z = 100;
     console.log(z);
-    z = 200; // (type error: cannot reassigning)
+    // z = 200; // (type error: cannot reassigning)
     console.log(z);
-    // const z = 300  (reference error: cannot redeclare)
+    // const z = 300  // (reference error: cannot redeclare)
     console.log(z);
 }
 example();
