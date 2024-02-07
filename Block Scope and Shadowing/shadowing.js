@@ -16,7 +16,7 @@ let b = 200;
     console.log(b); // outputs 20
 }
 console.log(b); // outputs 200
-// this is because outer let declaration is created in global space
+// this is because outer let declaration is created in script space (separate memory space for let and const)
 // and inner let declaration is created in separate/different block space
 
 // Same is the case for const
@@ -26,5 +26,5 @@ const c = 300;
     console.log(c); // outputs 30
 }
 console.log(c); // outputs 300
-// this is because outer const declaration is created in global space
+// this is because outer const declaration is created in script space (separate memory space for let and const)
 // and inner const declaration is created in separate/different block space
