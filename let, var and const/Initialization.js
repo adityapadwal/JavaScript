@@ -6,8 +6,8 @@ let and const: They are not automatically initialized. If you try to use them be
 */
 
 // var - automatically initialized with undefined
+var f;
 console.log(f);  // Outputs undefined
-var f = 50;
 
 // let/const - not automatically initialized
 // console.log(g);  // ReferenceError: Cannot access 'g' before initialization

@@ -27,4 +27,4 @@ const c = 300;
 }
 console.log(c); // outputs 300
 // this is because outer const declaration is created in script space (separate memory space for let and const)
-// and inner const declaration is created in separate/different block space
+// and inner const declaration is created in separate/different block space.

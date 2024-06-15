@@ -1,6 +1,6 @@
 // VI. TDZ Property difference between let, var and const
 /* 
-var: var has no temporal dead zone. You can access and log var variables before their declaration without an error.
+var: var has no temporal dead zone. You can access and log var variables before their declaration without an error. They will log undefined but not error
 let and const: They have a temporal dead zone. Trying to access or log them before the declaration results in a ReferenceError.
 */
 
