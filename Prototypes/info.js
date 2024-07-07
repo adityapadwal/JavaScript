@@ -1,0 +1,5 @@
+/*
+    JavaScript uses prototypes for inheritance.
+    The main purpose for using prototypes is that 
+    objects can inherit properties and methods from another objects
+*/
